@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Автообновление страниц
 // @namespace    auto-refresh.local
-// @version      1.0.0
+// @version      1.0.1
 // @description  Автоматически обновляет вкладку с заданным интервалом: 5, 10, 15 минут или свой.
 // @match        *://*/*
 // @noframes
@@ -9,6 +9,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
+// @updateURL    https://github.com/TsukuyomiTim/Auto-Refresher/raw/refs/heads/main/auto-refresh.user.js
+// @downloadURL  https://github.com/TsukuyomiTim/Auto-Refresher/raw/refs/heads/main/auto-refresh.user.js
 // ==/UserScript==
 
 (function () {
